@@ -12,7 +12,7 @@ public class Testing : MonoBehaviour {
     private Pathfinding pathfinding;
 
     private void Start() {
-        pathfinding = new Pathfinding(20, 10);
+        pathfinding = new Pathfinding(8, 8);
         pathfindingDebugStepVisual.Setup(pathfinding.GetGrid());
         pathfindingVisual.SetGrid(pathfinding.GetGrid());
     }
